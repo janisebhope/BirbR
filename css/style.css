@@ -16,6 +16,16 @@
   }
 }
 
+body {
+
+  
+   cursor: url('../images/Goose_Foot.png'), auto;  
+
+
+}
+
+
+
 .icon-square {
   width: 3rem;
   height: 3rem;
@@ -137,7 +147,7 @@ div.brands>img{
     h2{
       font-size: 3rem;
       text-align: center;
-/*       display:block; */
+      
     }
 
     div.meet_part{
@@ -169,6 +179,7 @@ div.brands>img{
      }
       
      .phone>img{
+      /* margin-top: 10px; */
       height:350px;
       width:250px;
 
