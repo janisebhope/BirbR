@@ -24,6 +24,12 @@ body {
 
 }
 
+button{
+
+  cursor: url('../images/Goose_Slap.png'), auto !important;
+
+}
+
 
 
 .icon-square {
@@ -174,8 +180,9 @@ div.brands>img{
        display:flex;
        flex-direction:column-reverse;
       justify-content:center;
+      align-items: center;
+      gap:0px;
       
-      gap:20px;
      }
       
      .phone>img{
