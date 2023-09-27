@@ -48,7 +48,7 @@ button{
 h2{
   font-size: 3.5rem;
   text-align: left;
-  display:block;
+  
 }
 h3{ font-size: 3rem;}
 
@@ -151,7 +151,7 @@ div.brands>img{
     }
 
     h2{
-      font-size: 3rem;
+      font-size: 2.5rem;
       text-align: center;
       
     }
@@ -160,7 +160,7 @@ div.brands>img{
   
       width:100vw;
       display:flex;
-      justify-content: row-reverse;
+      justify-content: row;
       align-items: center;
     }
     
@@ -187,17 +187,18 @@ div.brands>img{
       
      .phone>img{
       /* margin-top: 10px; */
-      height:350px;
-      width:250px;
+      height:300;
+      width:200px;
 
       border-top-right-radius: 15%;
       border-top-left-radius: 15%;
      }
     
-     .phone{
+     div.phone{
         display: flex;
 
 justify-content:center;
+align-items: center;
      }
        
         
