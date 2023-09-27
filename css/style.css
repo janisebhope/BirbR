@@ -137,7 +137,7 @@ div.brands>img{
     h2{
       font-size: 3rem;
       text-align: center;
-      display:block;
+/*       display:block; */
     }
 
     div.meet_part{
@@ -169,7 +169,6 @@ div.brands>img{
      }
       
      .phone>img{
-      margin-top: 10px;
       height:350px;
       width:250px;
 
