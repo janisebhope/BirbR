@@ -174,9 +174,10 @@ div.brands>img{
         background-color: aqua;
        display:flex;
        flex-direction:column;
-      justify-content:center;
-      align-items: center;
-      gap:50px;
+      justify-content:space-between;
+      flex-basis:50%;
+      /* align-items: space-around; */
+      gap:5px;
       
      }
       
@@ -185,6 +186,7 @@ div.brands>img{
       /* margin-top: 10px; */
       height:300px;
       width:200px;
+      
       border-top-right-radius: 15%;
       border-top-left-radius: 15%;
      }
