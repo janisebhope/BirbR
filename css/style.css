@@ -153,20 +153,15 @@ div.brands>img{
     h2{
       font-size: 2.5rem;
       text-align: center;
-      
+      padding-top: 50px;
     }
 
-    div.meet_part{
-  
-      width:100vw;
-      display:flex;
-      justify-content: row;
-      align-items: center;
-    }
+    
     
     
      /* layout of button */
     div.meet_part>div>div{
+     
       display:flex;
       flex-direction:column;
       justify-content:center;
@@ -176,28 +171,29 @@ div.brands>img{
 
 
       div.meet_part{
-       
+        background-color: aqua;
        display:flex;
        flex-direction:column;
       justify-content:center;
       align-items: center;
-      gap:0px;
+      gap:50px;
       
      }
       
      .phone>img{
+     
       /* margin-top: 10px; */
-      height:300;
+      height:300px;
       width:200px;
-
       border-top-right-radius: 15%;
       border-top-left-radius: 15%;
      }
     
      div.phone{
+      background-color: purple;
         display: flex;
-
-justify-content:center;
+        
+justify-content:flex-end;
 align-items: center;
      }
        
