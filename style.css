@@ -1,0 +1,258 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+
+  
+   cursor: url('../images/Goose_Foot.png'), auto;  
+
+
+}
+
+button{
+
+  cursor: url('../images/Goose_Slap.png'), auto !important;
+
+}
+
+
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 200px;
+  width:200px;
+  border-radius: 50%;
+}
+
+
+h2{
+  font-size: 3.5rem;
+  text-align: left;
+  
+}
+h3{ font-size: 3rem;}
+
+P{FONT-SIZE:1REM;}
+h4{font-size:2.5rem;
+  text-align: center;
+  padding-top: 70px;
+  
+}
+
+ /* meet new birds  */
+div.meet_part{
+  height:690px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+gap:200px;
+}
+
+div.meet_part>div{
+  width:300px;
+
+}
+
+div.meet_part>div>div{
+  display:flex;
+  justify-content:space-between;
+  }
+  .phone{ 
+  
+    height: 690px;
+    width:900px;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    }
+
+
+    .phone>img{ border-top-right-radius: 15%;
+      border-top-left-radius: 15%;}
+
+/* features */
+#features>div>div.container>div{
+  height: 200px;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap:100px;
+}
+
+/* testimonial */
+  div.testimonial>h4{
+  margin-left:100px;
+  margin-right:100px;
+
+
+    }
+
+
+    #testimonial{
+  background-color: rgb(247, 245, 245);
+  height:500px;
+ 
+    }
+    div.testimonial{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+    }
+
+    div.brands{
+  
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+
+  gap:1px;
+    }
+
+div.brands>img{
+  width:150px;
+  height:30px;
+}
+
+
+
+
+  @media(max-width:600px) {
+    /* CSS FOR SCREENS BELOW OR EQUAL TO 600PX WIDE */
+
+    .profile-img {
+      height: 100px;
+      width:100px;
+      border-radius: 50%;
+    }
+
+    h2{
+      font-size: 2.5rem;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    
+    
+    
+     /* layout of button */
+    div.meet_part>div>div{
+     
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items: center;
+      gap:10px;
+      }
+
+
+      div.meet_part{
+        background-color: aqua;
+       display:flex;
+       flex-direction:column;
+      justify-content:center;
+      align-items: space-around;
+      gap:5px;
+      
+     }
+      
+     .phone>img{
+     
+      /* margin-top: 10px; */
+      height:300px;
+      width:200px;
+      border-top-right-radius: 15%;
+      border-top-left-radius: 15%;
+     }
+    
+     div.phone{
+      background-color: purple;
+        display: flex;
+        
+justify-content:flex-end;
+align-items: center;
+     }
+       
+        
+        
+        #features>div>div.container>div{
+          height: 200px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        }
+
+        
+      #testimonial{
+        height:500px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+      }
+      
+      div.brands{
+        
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+      align-items: center;
+        gap:10px;
+      }
+
+
+
+
+      div.testimonial>h4{
+        margin-left:20px;
+        margin-right:20px;
+      
+        font-size:1.5rem;
+          text-align: center;
+          padding-top: 20px;
+          
+      
+        
+      }
+
+     
+
+      
+
+         body{
+          width:100vw;
+        
+         }
+         
+
+         
+
+    }
+  
